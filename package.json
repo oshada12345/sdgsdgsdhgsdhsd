@@ -1,0 +1,5 @@
+"dependencies": {
+  "@open-wa/wa-automate": "^5.10.0",
+  "fs": "^0.0.1-security",
+  "ytdl-core": "^4.9.1"
+}
