@@ -21,7 +21,7 @@ conn.on('message-new', async (message) => {
       await conn.sendMessage(from, 'Hello', MessageType.text);
     } else if (body.toLowerCase() === 'download song') {
       // Download a song from YouTube
-      const videoUrl = '<YouTube video URL>';
+      const videoUrl = 'https://www.youtube.com/watch?v=1wfeqDyMUx4';
       const info = await ytdl.getInfo(videoUrl);
       const audioFormat = ytdl.chooseFormat(info.formats, { filter: 'audioonly' });
 
